@@ -1,0 +1,32 @@
+
+.card {
+    width: 330px;
+    height: 400px;
+    display: flex;
+    text-align: center;
+    line-height: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    .img {
+      width: 100%;
+      height: 100%;
+    }
+    .name {
+      color: #4e4ccd;
+      font-weight: bold;
+    }
+    .desc {
+      font-size: 15px;
+      color: gray;
+    }
+    .price {
+      color: #4e4ccd;
+      font-weight: bold;
+    }
+    .f_icons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      font-size: 20px;
+      color: #4e4ccd;
+    }
+  }

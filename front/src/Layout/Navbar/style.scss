@@ -1,0 +1,84 @@
+nav{
+    max-width: 100%;
+    min-height: 12vh;
+    display: flex;
+    // align-items: center;
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 65%;
+        margin: 0 auto;
+        min-height: 10vh;
+        // text-align: center;
+        // align-items: center;
+
+        .header{
+            width: 100%;
+          display: flex;
+          justify-content: space-between;
+          padding: 30px 0px;
+          align-items: center;
+            .nav_search{
+                min-width: 130px;
+                input{
+                    width: 100%;
+                    outline: none;
+                    border: none;
+                    font-size: 17px;
+                }
+            }
+            .nav_shoppers{
+                font-size: 20px;
+                border: 2px solid black;
+                min-width: 130px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                span{
+                    width: 100%;
+                }
+            }
+            .nav_icons{
+                display: flex;
+                gap: 10px;
+                color: gray;
+            }
+        }
+        .pages{
+            display: flex;
+            // flex-wrap: wrap;
+            align-items: center;
+            width: 100%;
+            min-height: 4rem;
+            border: 1px solid rgba(108, 152, 218, 0.28);
+            padding: 10px 0px;
+            ul{
+                width: 50%;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-between;
+                height: 100%;
+                align-items: center;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 900px) {
+   nav{
+    .header{
+        align-items: start !important;
+        // text-align: center !impo rtant;
+        flex-direction: column;
+        gap: 30px;
+    }
+    ul{
+        display: flex !important;
+    flex-direction: column;
+    text-align: start !important;
+    gap: 20px !important;
+    align-items: start !important;
+    }
+   }
+  }

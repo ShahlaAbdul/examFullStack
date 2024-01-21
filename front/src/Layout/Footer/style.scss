@@ -1,0 +1,56 @@
+footer{
+max-width: 100%;
+min-height: 20vh;
+padding: 3rem 0px;
+border-top: 1px solid rgb(178, 230, 245);
+    .footer{
+       width: 65%;
+       margin: 0 auto;
+       display: flex;
+       flex-direction: column;
+       gap: 20px;
+       justify-content: space-between;
+       height: 30vh;
+       .footer_top{
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+        flex-wrap: wrap;
+        .navigation{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            line-height: 30px;
+            text-align: start;
+            align-items: start;
+            .sell{
+                display: flex;
+                flex-wrap: wrap;
+                // padding: 20px;
+                gap: 20px;
+            }
+        }
+        .promo{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .left{
+                img{
+                    width: 250px;
+                    height: 160px;
+                }
+            }
+            .info{
+                p{
+                    width: 200px;
+                }
+            }
+        }
+       }
+       .footer_foot{
+        display: flex;
+        justify-content: center;
+       }
+    //    justify-content: space-between;
+    }
+}

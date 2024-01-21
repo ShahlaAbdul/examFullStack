@@ -1,0 +1,101 @@
+#bigsale {
+  max-width: 100%;
+  min-height: 60vh;
+  padding: 5rem 0px;
+  .bigsale {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    .bigsale_head {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 5rem 0px;
+      h1 {
+        font-size: 30px;
+        font-weight: lighter;
+      }
+      span {
+        width: 100px;
+        max-width: 120px;
+        height: 1px;
+        border: 1px solid #4e4ccd;
+      }
+    }
+    .bigsale_center {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      justify-content: space-between;
+      gap: 20px;
+      // .left{
+      //     width: 900px;
+      //     max-width: 900px;
+      //     max-height: 500px;
+      //     img{
+      //         width: 100%;
+      //         height: 100%;
+      //     }
+
+      // }
+      .right {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+        h1 {
+          color: #6563f3e9;
+          font-size: 30px;
+          font-weight: lighter;
+        }
+        .date {
+          display: flex;
+        }
+        p {
+          width: 60%;
+          color: gray;
+          font-size: 15px;
+        }
+        span {
+          color: gray;
+        }
+        button {
+          min-width: 130px;
+          height: 40px;
+          background-color: #6563f3e9;
+          color: #fff;
+          font-size: 17px;
+          border: none;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1200px) {
+  p {
+    width: 100% !important;
+  }
+  .bigsale_center {
+    flex-direction: column !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .right {
+    width: 90% !important;
+    h1{
+        font-size: 18px !important;
+    }
+    p{
+        width: 100% !important;
+        font-size: 12px !important;
+    }
+  }
+  // .bigsale_center{
+  //     flex-direction: column !;
+  // }
+}
